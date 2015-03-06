@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Arduino-project : arduino project">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Arduino-project</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ICStationcode/arduino-project">View on GitHub</a>
+
+          <h1 id="project_title">Arduino-project</h1>
+          <h2 id="project_tagline">arduino project</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ICStationcode/arduino-project/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ICStationcode/arduino-project/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><img src="http://cdn.instructables.com/FC7/LC96/I1FQ0HDZ/FC7LC96I1FQ0HDZ.MEDIUM.jpg" alt="">
+<a href="http://www.icstation.com/">ICStation</a> introduce you the NRF24L01 Wireless Motor Speed Control System.This system works under DC 5V voltage. It uses the NRF24L01 Wireless Module to transmit speed control data and the Hall Sensor to detect the real rotate speed. This design uses the PWM duty cycle to modulate and realize the speed control.What’s more, It can be used in the situation which do not need high speed control precision, such as the automatic control of the curtain.
+Functions:</p>
+
+<p>1）When initialize the sending part, the LCD1602 board displays the characters of the original PMW data and the speed which is with zero. The receiving part will control the wireless transmission of data and displays the real rotate</p>
+
+<p>speed after the receiving part finished the initialization.
+2) When the Receiving Module works, the rotate speed of the Motor will change according to the data which is transmitted by the sending part. The Holl Sensor Speed Measure Module begins to detect the rotate speed and the LED light of the Holl sensor lights. Meanwhile, the Wireless Module of the receiving part will send the detected rotate speed data back to the Sending part.</p>
+
+<p>3) For the sending part, we need four keys (K0,K1,K2,K3) in the keyboard to change the speed of the motor. The associated functions of the four keys as following: 
+①Press the key KO for the first time, the motor moves as the first gear of speed; press the key KO again, the motor moves as the second gear of speed; the third time when we press the key KO, the motor moves as the third gear of speed; the,forth time when we press the K0,,the motor moves as the first gear of speed.</p>
+
+<p>②Press the key K1, we can switch the rotate speed of increasing or reducing.</p>
+
+<p>③Press the key K2, we can change the rotate speed to five more or less.</p>
+
+<p>④Press the key K3, we can change the rotate speed to ten more or less.</p>
+
+<p>Code for reference:</p>
+
+<p><a href="http://www.icstation.com/newsletter/eMarketing/NRF24L01_Control_Code.zip">http://www.icstation.com/newsletter/eMarketing/NRF24L01_Control_Code.zip</a></p>
+
+<p>For details:
+<a href="http://www.instructables.com/id/The-NRF24L01-Wireless-Motor-Speed-Control-System-w/">http://www.instructables.com/id/The-NRF24L01-Wireless-Motor-Speed-Control-System-w/</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Arduino-project maintained by <a href="https://github.com/ICStationcode">ICStationcode</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
